@@ -1,0 +1,129 @@
+.cont_div{
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(0, 0, 0);
+    padding: 30px;
+}
+
+.cont_head{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 2px solid rgb(243, 243, 243);
+}
+
+.cont_head h1{
+    color: rgb(255, 255, 255);
+}
+
+.cont_elm{
+    margin: 50px;
+    width: 80%;
+    height: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* background-color: blanchedalmond; */
+}
+.cont_details{
+    color: white;
+}
+
+.cont_details h2{
+    font-size: 25px;
+    font-weight: 300;
+}
+
+.cont_details h3{
+    color: yellow;
+    margin-top: 10px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+.headin{
+    color: white;
+}
+
+.input_from{
+    margin-left: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+}
+.from_cont{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.from_cont button{
+    font-size: 14px;
+    margin-top: 30px;
+    width: 150px;
+    height: 30px;
+    border: none;
+    border-radius: 13px;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(143, 142, 142);
+    color: white;
+    text-transform: capitalize;
+}
+
+.from_cont button:hover{
+    background-color: yellow;
+    color: rgb(0, 0, 0);
+}
+
+input{
+    padding: 10px;
+    margin-bottom: 10px;
+    width: 100px;
+    height: 30px;
+    border: none;
+    box-shadow: 1px 1px 1px white;
+    width: 20rem;
+    outline: none;
+}
+
+textarea{
+    font-size: 15px;
+    padding: 10px;
+    height: auto;
+    width: 20rem;
+    resize: vertical;
+    outline: none;
+}
+
+
+
+
+@media screen and (max-width:998px) {
+    .cont_elm{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .input_from{
+        margin-top: 100px;
+    }
+}
+
+@media screen and (max-width:600px) {
+    .cont_elm{
+        margin-left: 10px;
+    }
+}
+
+@media screen and (max-width:350px) {
+    input{
+        width: 200px;
+    }
+    textarea{
+        width: 12.7rem;
+    }
+}

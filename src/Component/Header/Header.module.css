@@ -1,0 +1,184 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Scheherazade+New&display=swap');
+
+
+.nav_show{
+    display: none;
+}
+
+.hamberger_hide_data{
+    display: none;
+}
+
+.header{
+    font-family: 'Scheherazade New', serif;
+    width: 100% ;
+    height: 100vh;
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 15px;
+}
+
+.elm{
+    color: white;
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+    flex-direction: column;
+} 
+
+.elm .head1{
+    font-weight: 200;
+    font-size: 17px;
+    word-spacing: 3px;
+}
+.elm .head{
+    font-weight: 700;
+    margin-top: 8px;
+}
+
+.elm .para{
+    margin-top: 15px;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+/* .btn{
+    width: 100px;
+    height: 30px;
+    border-radius: 10px;
+    background-color: rgb(148, 148, 255);
+}  */
+   
+.btn button{
+    margin-top: 30px;
+    width: 130px;
+    height: 30px;
+    border-radius: 15px;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(88, 88, 88);
+    font-size: 15px;
+    color: white;
+}   
+button:hover{
+    background-color: rgb(255, 255, 0);
+    color: rgb(2, 2, 2);
+}
+
+span{
+    margin-left: 10px;
+    font-size: 17px;
+}
+.header .hambergerdat{
+    display: none;
+}
+.closeBtn{
+    display: none;
+}
+
+
+@media screen and (max-width:998px) {
+    /* .nav_show{
+        display: block;
+    } */
+
+    .elm .para{
+        word-spacing: 1px;
+        line-height: 30px;
+        font-weight: 300;
+        font-size: 25px;
+    }
+    .hamberger_show_data{
+        color: rgb(241, 241, 241);
+        width: 50%;
+        height: 50%;
+        position: fixed;
+        top: 100px;
+        left: 0px;
+        z-index: 999;
+        background-color: rgb(255, 255, 255);
+        transition: height 0.3s;
+    }
+
+    .hamberger_hide_data{
+        position: fixed;
+        top: 100px;
+        right: 0;
+        z-index: 999;
+        background-color: rgb(255, 255, 255);
+    }
+
+    .header{
+        width: 100%;
+        height: 100%;
+    }
+    .header .hambergerBtn{
+        position: fixed;
+        display: block;
+        font-size: 50px;
+        color: rgb(180, 34, 34);
+        position: absolute;
+        top: 30px;
+        right: 30px;
+        z-index: 9999999999999;
+    }
+    .btn{
+        border-radius: 10px;
+        width: 250px;
+        height: 30px;
+    }
+    .btn button{
+        border-radius: 10px;
+        width: 200px;
+        height:40px;
+        /* background-color: white; */
+    }
+    .closeBtn{
+        display: block;
+        position: absolute;
+        top: 20px;
+        left: 20px;
+        color: rgb(255, 255, 255);
+        z-index: 9999;
+        font-size: 50px;
+    }
+}
+
+/* @media screen and (max-width:600px) {
+    .hamberger_show_data{
+        margin-top: 0px;
+    }
+    .hamberger_hide_data{
+        margin-top: 0px;
+    }
+} */
+
+
+@media screen and (max-width:500px) {
+    .elm .head1{
+        font-size: 30px;
+    }
+
+    .elm .head{
+        line-height: 38px;
+        font-size: 40px;
+    }
+
+    .elm .para{
+        margin-top: 30px;
+        font-size: 20px;
+        letter-spacing: 1.8px;
+        line-height: 26px;
+        font-weight: 300;
+    }
+
+    .btn{
+        margin-top: 40px;
+    }
+}

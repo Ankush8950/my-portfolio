@@ -1,0 +1,53 @@
+
+.elm{
+   width: 120px;
+   height: 130px;
+   background-color: rgb(131, 131, 131);
+   margin: 20px;
+   display: flex;
+   /* flex-wrap: wrap; */
+}
+
+.Card_elm{
+  padding: 15px 20px 25px 20px;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.head{
+    color: yellow;
+}
+
+.para{
+    flex-direction: column-reverse;
+    color: white;
+}
+
+
+
+ @media screen and (max-width:998px) {
+    .elm{
+        width: 200px;
+        height: 150px;
+        /* display: flex;
+        align-items: center;
+        justify-content: center; */
+    }
+}  
+
+@media screen and (max-width:600px) {
+    .elm{
+        width: 150px;
+        height: 150px;
+    }
+}
+
+@media screen and (max-width:500px) {
+    .elm{
+        width: 170px;
+        height: 100px;
+    }
+}

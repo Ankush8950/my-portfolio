@@ -1,0 +1,94 @@
+.main_cards{
+    width: 250px;
+    height: 170px;
+    /* background-color: wheat; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 7px;
+    margin: 10px;
+}
+
+.Cards_elm{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.Cards_icons{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    color: white;
+    background-color: rgb(250, 239, 145);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.Cards_line{
+    width: 2px;
+    height: 100px;
+    background-color: white;
+}
+
+
+.Cards_details{
+    margin-left: 15px;
+}
+.years_details{
+    width: 85px;
+    height: 20px;
+    border-radius: 15px;
+    background-color: rgb(126, 126, 126);
+    font-size: 7px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Edu_details h1{
+    font-size: 17px;
+    color: white;
+    font-weight: 500;
+    margin-top: 6px;
+}
+
+.Edu_details p{
+    font-size: 11px;
+    font-weight: 200;
+    color: rgb(211, 210, 210);
+}
+
+
+
+@media screen and (max-width:760px) {
+    .main_cards{
+        padding: 20px;   
+        width: 100%;
+        font-size: 30px;
+    }
+    .Cards_details{
+        font-weight: 300;
+    }
+    .Edu_details h1{
+        font-size: 25px;
+    }
+    .Edu_details p{
+        font-size: 15px;
+    }
+}
+@media screen and (max-widt:600px) {
+    .main_cards{
+        width: 270px;
+    }
+    .Edu_details h1{
+        font-size: 8px;
+    }
+}
+
+
+@media screen and (max-width:350px) {
+    .main_cards{
+        margin-top: 10px;
+    }
+}
