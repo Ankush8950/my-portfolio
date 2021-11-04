@@ -1,18 +1,18 @@
 .Card{
     position: relative;
-    width: 200px;
+    width: 30vw;
     height: 200px;
-    border-radius: 10px;
+    border-radius: 8px;
     /* background-color: yellow; */
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    margin-right: 30px;
+    margin: 1.5vw;
 }
 
 .port_image{
-    width: 200px;
+    width: 30vw;
     height: 200px;
     border-radius: 10px;
     transition: 1s ease-in-out;
@@ -24,7 +24,7 @@
     scale: 2;
     animation-delay: 2s;
     z-index: 99;
-    border: 2px solid black;
+    border: 2px solid black; 
     /* display: block;
     position: absolute;
     background-color: blue;
@@ -32,12 +32,12 @@
     left: 0;
     right: 0;
     bottom: 0; */
-}
+} 
 
 
 
 .port_image:hover + .cardHov_btn{
-    width: 200px;
+    width: 30vw;
     height: 200px;
     background-image: linear-gradient(rgba(255, 255, 0, 0.657),rgba(0, 128, 0, 0.568));
     border-radius: 10px;
@@ -67,12 +67,12 @@
     display: none;
 }
 
-/* .btn{
+.btn{
     margin-top: 15px;
-    width: 120px;
-    height: 30px;
+    width: 12vw;
+    height: 4vw;
     background-color: rgb(107, 44, 44);
-} */
+}
 
 @media screen and (max-width:600px) {
     .Card{
@@ -82,7 +82,7 @@
         width: 80%;
         height: 90%;
     }
-    .port_image:hover + .cardHov_btn{
+    /* .port_image:hover + .cardHov_btn{
         margin-left: 30px;
         margin-top: 13px;
         width: 82%;
@@ -95,7 +95,7 @@
         left: 0;
         right: 0;
         bottom: 0;
-    }
+    } */
 }
 
 
@@ -109,4 +109,4 @@
         height: 80%;
     }
 }
-
+ 

@@ -17,6 +17,7 @@ const Portfolio = () => {
                   return <Card 
                     key={index}
                     img={val.img}
+                    link={val.link}
                   />
                 })
               }

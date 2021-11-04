@@ -13,14 +13,15 @@ const Contact = () => {
           <div className={style.cont_div} id="contact">
             <div className={style.cont_head}>
               <h1>Contact<span>Me</span></h1>
+              <div className={style.port_heading}></div>
             </div>
 
             <div className={style.cont_elm}>
               <div className={style.cont_details}>
                 <h2>Contact Info</h2>
-                <h3><HiOutlineMail /> <span className={style.headin} >ankushku72@gmail.com</span> </h3>
-                <h3><VscCallIncoming /><span className={ style.headin} >7282088791</span></h3>
-                <h3><BiMap /><span className={ style.headin} >Bhopal Madhya Pradesh</span></h3>
+                <h3 className={style.heading}><HiOutlineMail /> <span className={style.headin} >ankushku72@gmail.com</span> </h3>
+                <h3 className={style.heading}><VscCallIncoming /><span className={ style.headin} >7282088791</span></h3>
+                <h3 className={style.heading}><BiMap /><span className={ style.headin} >Bhopal Madhya Pradesh</span></h3>
               </div>
               <div className={style.input_from}>
                   <form className={style.from_cont}  >

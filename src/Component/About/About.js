@@ -1,17 +1,10 @@
-import React ,{ useState } from 'react'
+import React  from 'react'
 import styles from "./About.module.css"
 import { Experience } from "./Card/Cardapi"
 import Card from "./Card/Card"
-import { HiDownload } from "react-icons/hi";
-import img from '../image/beauti.png'
 
 const About = () => {
-    const [open, setOpen] = useState("hello");
-
-    const openPDf = () => {
-        setOpen(!open);
-    }
-
+  
     return (
         <>
            <div className={styles.about} id="about" >
@@ -22,11 +15,11 @@ const About = () => {
 
             <div className={styles.contaier}>
                <div className={styles.details}>
-                    <h1>Name:<span>Ankush kumar</span></h1>
-                    <h1>Age:<span>20</span></h1>
-                    <h1>Qualification:<span>B-tech(CSE)</span></h1>
-                    <h1>post:<span>Front End Developer</span></h1>
-                    <h1>Language:<span>Hindi</span> ,<span>English</span></h1>
+                    <h1 className={styles.data}>Name:<span className={styles.data_pro}>Ankush kumar</span></h1>
+                    <h1 className={styles.data}>Age:<span className={styles.data_pro}>22</span></h1>
+                    <h1 className={styles.data}>Qualification:<span className={styles.data_pro}>B-tech(CSE)</span></h1>
+                    <h1 className={styles.data}>post:<span className={styles.data_pro}>Front End Developer</span></h1>
+                    <h1 className={styles.data}>Language:<span className={styles.data_pro}>Hindi</span> ,<span className={styles.data_pro}>English</span></h1>
                     {/* <button className={styles.button}> Download CV <span><HiDownload /></span></button> */}
                </div> 
 

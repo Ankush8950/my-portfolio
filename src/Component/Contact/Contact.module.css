@@ -1,6 +1,6 @@
 .cont_div{
-    width: 100%;
-    height: 100vh;
+    width: auto;
+    height: auto;
     background-color: rgb(0, 0, 0);
     padding: 30px;
 }
@@ -9,17 +9,28 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    border-bottom: 2px solid rgb(243, 243, 243);
+    flex-direction: column;
 }
 
 .cont_head h1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
     color: rgb(255, 255, 255);
+}
+.cont_head .port_heading{
+    margin-top: 1.3vw;
+    width: 65vw;
+    height: 2px;
+    background-color: white;
 }
 
 .cont_elm{
-    margin: 50px;
-    width: 80%;
-    height: 80%;
+    margin-top: 7vw;
+    margin-bottom: 10vw;
+    padding: 2vw;
+    width: auto;    
+    height: auto;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -29,17 +40,15 @@
     color: white;
 }
 
-.cont_details h2{
-    font-size: 25px;
-    font-weight: 300;
+.cont_details .heading{
+    display: flex;
+    align-items: center;
+    color: yellow;
 }
 
-.cont_details h3{
-    color: yellow;
-    margin-top: 10px;
-    display: flex;
-    align-items: flex-start;
-    justify-content: flex-start;
+.heading .headin{
+    font-size: 2vw;
+    font-weight: 300;
 }
 
 .headin{
@@ -47,7 +56,7 @@
 }
 
 .input_from{
-    margin-left: 50px;
+    margin-left: 5vw;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -58,25 +67,6 @@
     align-items: center;
     justify-content: center;
     flex-direction: column;
-}
-
-.from_cont button{
-    font-size: 14px;
-    margin-top: 30px;
-    width: 150px;
-    height: 30px;
-    border: none;
-    border-radius: 13px;
-    align-items: center;
-    justify-content: center;
-    background-color: rgb(143, 142, 142);
-    color: white;
-    text-transform: capitalize;
-}
-
-.from_cont button:hover{
-    background-color: yellow;
-    color: rgb(0, 0, 0);
 }
 
 input{
@@ -97,7 +87,35 @@ textarea{
     width: 20rem;
     resize: vertical;
     outline: none;
+    border: none;
 }
+
+.from_cont .Cont_btn{
+    margin-top: 2vw;
+    width: auto;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 25px;
+    outline: none;
+    border: none;
+    box-shadow: 1px 1px  1px solid black;
+    text-transform: capitalize;
+    color: white;
+    background-color: rgb(153, 153, 153);
+    font-size: 1.2vw;
+    padding: 7px 30px 7px;
+}
+.from_cont .Cont_btn:hover{
+    background-color: yellow;
+    color: rgb(0, 0, 0);
+}
+
+.Cont_btn span{
+    font-size: 1.2vw;
+}
+
 
 
 
@@ -126,4 +144,4 @@ textarea{
     textarea{
         width: 12.7rem;
     }
-}
+} 

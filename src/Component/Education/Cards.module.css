@@ -6,7 +6,7 @@
     align-items: center;
     justify-content: center;
     padding: 7px;
-    margin: 10px;
+    margin: 1.13vw;
 }
 
 .Cards_elm{
@@ -59,7 +59,7 @@
     color: rgb(211, 210, 210);
 }
 
-
+/* 
 
 @media screen and (max-width:760px) {
     .main_cards{
@@ -91,4 +91,4 @@
     .main_cards{
         margin-top: 10px;
     }
-}
+} */

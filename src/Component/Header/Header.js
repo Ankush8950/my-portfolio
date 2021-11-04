@@ -6,7 +6,6 @@ import { CgMenuRightAlt } from "react-icons/cg";
 import Navbar from "../Navbar/Navbar"
 import { RiCloseFill } from "react-icons/ri";
 import { Link } from 'react-scroll';
-// import { NavLink } from 'react-router-dom';
 
 
 const Header = () => {

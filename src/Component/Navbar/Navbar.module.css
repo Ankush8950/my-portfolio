@@ -1,6 +1,6 @@
 .nav{
-    width: 25%;
-    height: 100vh;
+    width: 25vw;
+    height: 47vw;
     background-color: rgb(29, 29, 29);
     position: fixed;
     top: 0; 
@@ -50,8 +50,8 @@
 }
 
 .link li{
-    width: 130px;
-    height: 30px;
+    width: 12vw;
+    height: 2.5vw;
     border-radius: 15px;
     background-color: rgba(56, 56, 56, 0.466);
     color: white;
@@ -80,19 +80,25 @@
     justify-content: center;
     position: absolute;
     bottom: 15px;
-    margin: 10px;
+    /* margin-top: 10vw; */
     color: white;
 }
 
 .Social_icon .Social_icons a{
     margin-top: 10px;
-    margin: 10px;
+    margin: 10px;   
     color: rgb(158, 157, 157);
+}
+
+@media screen and (max-width: 1080px) {
+    .nav{
+        display: none;
+    }
 }
 
 
 
-@media screen and (max-width: 998px) {
+ @media screen and (max-width: 998px) { 
     /* .nav{
         display: none;
     } */

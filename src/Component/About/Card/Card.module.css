@@ -1,43 +1,50 @@
 
 .elm{
-   width: 120px;
-   height: 130px;
+   width: 23vh;
+   height: 13vw;
    background-color: rgb(131, 131, 131);
    margin: 20px;
    display: flex;
    /* flex-wrap: wrap; */
+  border-radius: 1.3vw;
+
 }
 
 .Card_elm{
-  padding: 15px 20px 25px 20px;
+  padding: 1vw;
   width: 100%;
   height: 100%;
   display: flex;
-  align-items: center;
+  /* align-items: center; */
+  /* justify-content: center; */
   flex-direction: column;
 }
 
 .head{
+    font-size: 2vw;
+    font-weight: 300;
     color: yellow;
 }
 
 .para{
+    padding-top: 2vw;
+    word-spacing: inherit;
     flex-direction: column-reverse;
     color: white;
 }
 
 
 
- @media screen and (max-width:998px) {
+ /* @media screen and (max-width:998px) {
     .elm{
         width: 200px;
         height: 150px;
-        /* display: flex;
+        display: flex;
         align-items: center;
-        justify-content: center; */
+        justify-content: center;
     }
-}  
-
+}   */
+/* 
 @media screen and (max-width:600px) {
     .elm{
         width: 150px;
@@ -50,4 +57,4 @@
         width: 170px;
         height: 100px;
     }
-}
+} */
