@@ -148,8 +148,12 @@
         color: white;
     }
     .link li button{
-        font-size: 6vw;
-        /* padding: 5px 10px 5px 10px ; */
+        width: 40vw;
+        height: 13vw;
+        font-size: 5vw;
+        background-color: rgb(94, 93, 93);
+        border-radius: 15vw;
+        padding: 5px 10px 5px 10px ;
     }
 }
 

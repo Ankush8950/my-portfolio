@@ -47,7 +47,7 @@
         justify-content: center;
     }
     .head{
-        font-size: 3vw;
+        font-size: 5vw;
     }
 }  
  
@@ -55,6 +55,9 @@
     .elm{
         width: 40vw;
         height: auto;
+    }
+    .head{
+        font-size: 7vw;
     }
 }
 /*

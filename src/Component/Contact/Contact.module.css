@@ -5,6 +5,12 @@
     padding: 30px;
 }
 
+.contact_div{
+    width: auto;
+    height: auto;
+    background-color: black;
+}
+
 .cont_head{
     display: flex;
     align-items: center;
@@ -129,6 +135,12 @@ textarea{
     .input_from{
         margin-top: 100px;
     }
+    .cont_head h1{
+        font-size: 7vw;
+    }
+    .cont_head h1 span{
+        font-size: 7vw;
+    }
 }
 
 @media screen and (max-width:600px) {
@@ -141,6 +153,12 @@ textarea{
         font-size: 4vw;
     }
     .Cont_btn span{
+        font-size: 4vw;
+    }
+    .contact_div{
+        height: 170vw;
+    }
+    .cont_details .headin{
         font-size: 4vw;
     }
 }

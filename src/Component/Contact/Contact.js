@@ -11,6 +11,7 @@ const Contact = () => {
     return (
         <>
           <div className={style.cont_div} id="contact">
+          <div className={style.contact_div}>
             <div className={style.cont_head}>
               <h1>Contact<span>Me</span></h1>
               <div className={style.port_heading}></div>
@@ -34,6 +35,7 @@ const Contact = () => {
                   </form>
               </div>
             </div>
+          </div>
           </div>
         </>
     )

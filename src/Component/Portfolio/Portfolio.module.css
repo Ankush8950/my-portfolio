@@ -42,3 +42,13 @@ h1 span {
     flex-wrap: wrap;
     /* background-color: violet; */
 }
+
+@media screen and (max-width: 1080px) {
+    .port_head h1{
+        font-size: 7vw;
+    }
+
+    .port_head h1 span{
+        font-size: 7vw;
+    }
+}

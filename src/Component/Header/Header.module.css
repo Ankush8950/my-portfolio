@@ -193,8 +193,9 @@ span{
     
     .elm .para{
         /* margin-top: 15px; */
-        font-size: 5vw;
-        font-weight: 500;
+        font-size: 4vw;
+        font-weight: 300;
+        line-height: 5.5vw;
     }
     .btn button{
         width: auto;
@@ -230,7 +231,7 @@ span{
         margin-top: 30px;
         font-size: 20px;
         letter-spacing: 1.8px;
-        line-height: 26px;
+        line-height: 7vw;
         font-weight: 300;
     }
 
