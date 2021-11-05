@@ -13,6 +13,7 @@ const Navbar = (props) => {
     return (
         <>
            <div className={style.nav}>
+           <div className={style.nav_div}>
             <div className={style.user}>
                <div className={style.ima_data}>
                 <img src={pro} className={style.img} alt="images" />
@@ -32,7 +33,7 @@ const Navbar = (props) => {
                             smooth={true}
                             offset={0}
                             duration={500}>
-                            Home
+                            <button>Home</button>
                         </Link>
                     </li>
 
@@ -45,7 +46,8 @@ const Navbar = (props) => {
                             smooth={true}
                             offset={0}
                             duration={500}>
-                           About
+                            <button>About</button>
+                           
                         </Link>
                     </li>
 
@@ -58,7 +60,8 @@ const Navbar = (props) => {
                             smooth={true}
                             offset={0}
                             duration={500}>
-                           Education
+                            <button>Education</button>
+                           
                         </Link>
                     </li>
                     <li >
@@ -70,7 +73,7 @@ const Navbar = (props) => {
                         smooth={true}
                         offset={0}
                         duration={500}>
-                        Portfolio
+                        <button>portfolio</button>
                         </Link>
                     </li>
                     <li>
@@ -82,7 +85,7 @@ const Navbar = (props) => {
                         smooth={true}
                         offset={0}
                         duration={500}>
-                        Contact
+                        <button>contact</button>
                         </Link>
                     </li>
                 </ul>
@@ -98,6 +101,7 @@ const Navbar = (props) => {
                 <a href="https://www.linkedin.com/in/ankush-kumar-275129176/"  ><FaLinkedin /></a>
                 </div>
             </div>
+           </div>
            </div> 
         </>
     )
