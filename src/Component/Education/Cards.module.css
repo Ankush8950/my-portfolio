@@ -59,36 +59,3 @@
     color: rgb(211, 210, 210);
 }
 
-/* 
-
-@media screen and (max-width:760px) {
-    .main_cards{
-        padding: 20px;   
-        width: 100%;
-        font-size: 30px;
-    }
-    .Cards_details{
-        font-weight: 300;
-    }
-    .Edu_details h1{
-        font-size: 25px;
-    }
-    .Edu_details p{
-        font-size: 15px;
-    }
-}
-@media screen and (max-widt:600px) {
-    .main_cards{
-        width: 270px;
-    }
-    .Edu_details h1{
-        font-size: 8px;
-    }
-}
-
-
-@media screen and (max-width:350px) {
-    .main_cards{
-        margin-top: 10px;
-    }
-} */

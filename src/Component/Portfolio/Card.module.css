@@ -18,20 +18,13 @@
     transition: 1s ease-in-out;
 }
 .port_image:hover + .cardHov_btn{
-    width: 350px;
-    height: 350px;
+    width: 30vw;
+    height: 200px;
     animation-delay: initial;
     scale: 2;
     animation-delay: 2s;
     z-index: 99;
     border: 2px solid black; 
-    /* display: block;
-    position: absolute;
-    background-color: blue;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0; */
 } 
 
 
@@ -79,23 +72,42 @@
         width: 100%;
     }
     .port_image{
-        width: 80%;
-        height: 90%;
+        width: 60vw;
+        height: 90vw;
     }
+
     /* .port_image:hover + .cardHov_btn{
-        margin-left: 30px;
-        margin-top: 13px;
-        width: 82%;
-        height: 85%;
-        display: flex;
-        align-items: center;
-        justify-content: center;
+        width: 90vw;
+        height: 200px;
+        animation-delay: initial;
+        scale: 2;
+        animation-delay: 2s;
+        z-index: 99;
+        border: 2px solid black;
         position: absolute;
         top: 0;
         left: 0;
         right: 0;
+        bottom: 0; 
+    }  */
+    
+    .port_image:hover + .cardHov_btn{
+        margin-left: 12vw;
+        width: 61.5vw;
+        height: 200px;
+        background-image: linear-gradient(rgba(255, 255, 0, 0.657),rgba(0, 128, 0, 0.568));
+        border-radius: 10px;
+        /* display: block;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        z-index: 999;
+        position: absolute;
+        top: 0;
+        left: 0;
         bottom: 0;
-    } */
+        right: 0; */
+    }
 }
 
 
@@ -105,8 +117,25 @@
     }
 
     .port_image{
-        width: 80%;
-        height: 80%;
+        width: 70vw;
+        height: 90vw;
+    }
+    .port_image:hover + .cardHov_btn{
+        margin-left: 6vw;
+        width: 70vw;
+        height: 200px;
+        background-image: linear-gradient(rgba(255, 255, 0, 0.657),rgba(0, 128, 0, 0.568));
+        border-radius: 10px;
+        display: block;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        z-index: 999;
+        position: absolute;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        right: 0;
     }
 }
  

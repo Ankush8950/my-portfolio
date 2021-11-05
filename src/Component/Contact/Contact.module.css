@@ -135,6 +135,14 @@ textarea{
     .cont_elm{
         margin-left: 10px;
     }
+    .from_cont .Cont_btn{
+        margin-top: 5vw;
+        padding: 7px 30px 7px;
+        font-size: 4vw;
+    }
+    .Cont_btn span{
+        font-size: 4vw;
+    }
 }
 
 @media screen and (max-width:350px) {

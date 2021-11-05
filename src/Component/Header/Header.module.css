@@ -176,6 +176,36 @@ span{
     }
 } 
 
+@media screen and (max-width:500px) {
+    .header{
+        height: 200vw;
+    }
+    .elm .head1{
+        font-weight: 200;
+        font-size: 3vw;
+        word-spacing: 3px;
+    }
+    .elm .head{
+        font-weight: 700;
+        /* margin-top: 3px; */
+        font-size: 6vw;
+    }
+    
+    .elm .para{
+        /* margin-top: 15px; */
+        font-size: 5vw;
+        font-weight: 500;
+    }
+    .btn button{
+        width: auto;
+        padding: 20px;
+        border-radius: 20px;
+    } 
+    .btn button span{
+        margin-left: 2vw;
+    } 
+}
+
 
 
 @media screen and (max-width: 300px) {
