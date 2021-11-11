@@ -130,7 +130,12 @@
         color: white;
     }
     .link li button{
+        width: 35vw;
+        height: 8vw;
         font-size: 3.5vw;
+        background-color: rgb(94, 93, 93);
+        border-radius: 15vw;
+        padding: 5px 10px 5px 10px ;
     }
 }  
 
@@ -149,7 +154,7 @@
     }
     .link li button{
         width: 40vw;
-        height: 13vw;
+        height: 10vw;
         font-size: 5vw;
         background-color: rgb(94, 93, 93);
         border-radius: 15vw;
@@ -160,7 +165,7 @@
 @media screen and (max-width:500px) {
     .link li button{
         width: 35vw;
-        height: 15vw;
+        height: 10vw;
     }
     .Social_icon .Social_icons a{
         margin-top: 6vw;

@@ -18,6 +18,7 @@ const Portfolio = () => {
                     key={index}
                     img={val.img}
                     link={val.link}
+                    link2={val.link2}
                   />
                 })
               }
