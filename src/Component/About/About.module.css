@@ -23,15 +23,15 @@
 
 .head h1{
     font-size: 2.5vw;
-    color: yellow;
+    color:yellow;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
-h1 span{
+.head h1 span{
     font-size: 2.5vw;
-    color: rgb(255, 255, 255);
+    color: white;
 }
 
 .contaier{
