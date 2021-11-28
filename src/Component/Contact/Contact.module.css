@@ -109,12 +109,12 @@ textarea{
     box-shadow: 1px 1px  1px solid black;
     text-transform: capitalize;
     color: white;
-    background-color: rgb(153, 153, 153);
+    background-color: rgb(65, 64, 64);
     font-size: 1.2vw;
     padding: 7px 30px 7px;
 }
 .from_cont .Cont_btn:hover{
-    background-color: yellow;
+    background-color: rgba(215, 235, 247, 0.952);
     color: rgb(0, 0, 0);
 }
 

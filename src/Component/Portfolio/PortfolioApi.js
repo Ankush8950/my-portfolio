@@ -34,12 +34,14 @@ export const PortfolioData = [
     {
         id:5,
         img: HomeDecore,
-        link: ""
-
+        link: "",
+        link2:""
     },
     {
         id:6,
-        img: Nimbus
+        img: Nimbus,
+        link:"",
+        link2:""
     },
 
     

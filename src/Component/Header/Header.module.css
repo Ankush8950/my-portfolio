@@ -54,6 +54,7 @@
 
    
 .btn button{
+    cursor: pointer;
     margin-top: 3vw;
     width: 13vw;
     height: 2.6vw;
@@ -67,7 +68,7 @@
     color: white;
 }   
 button:hover{
-    background-color: rgb(255, 255, 0);
+    background-color: rgba(215, 235, 247, 0.952);
     color: rgb(2, 2, 2);
 }
 

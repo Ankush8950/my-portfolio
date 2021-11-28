@@ -2,7 +2,7 @@
     width: 100%;
     height: auto;
     display: flex;
-    background-color: rgb(202, 14, 14);
+    /* background-color: rgb(202, 14, 14); */
 }
 .nav{
     width: 25%;
@@ -10,7 +10,7 @@
     position: fixed;
     top: 0;
     left: 0 ;
-    background-color: rgba(235, 1, 1, 0.26)
+    /* background-color: rgba(235, 1, 1, 0.26) */
     
 }
 
