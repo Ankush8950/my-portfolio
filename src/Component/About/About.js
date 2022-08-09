@@ -23,7 +23,6 @@ const About = () => {
                     <h1 className={styles.data}>post:<span className={styles.data_pro}>Front End Developer</span></h1>
                     <h1 className={styles.data}>Language:<span className={styles.data_pro}>Hindi</span> ,<span className={styles.data_pro}>English</span></h1>
                     <button className={styles.button}><a href={pdf}> Download CV <span><HiDownload /></span></a></button>
-                    {/* <button><a href={pdf}>Download</a></button> */}
                </div> 
 
                <div className={styles.experi_data}>
