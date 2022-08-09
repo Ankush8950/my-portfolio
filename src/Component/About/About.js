@@ -2,6 +2,8 @@ import React  from 'react'
 import styles from "./About.module.css"
 import { Experience } from "./Card/Cardapi"
 import Card from "./Card/Card"
+import { HiDownload } from "react-icons/hi";
+import pdf from "../pdf/Ankush-Resume.pdf"
 
 const About = () => {
   
@@ -20,7 +22,8 @@ const About = () => {
                     <h1 className={styles.data}>Qualification:<span className={styles.data_pro}>B-tech(CSE)</span></h1>
                     <h1 className={styles.data}>post:<span className={styles.data_pro}>Front End Developer</span></h1>
                     <h1 className={styles.data}>Language:<span className={styles.data_pro}>Hindi</span> ,<span className={styles.data_pro}>English</span></h1>
-                    {/* <button className={styles.button}> Download CV <span><HiDownload /></span></button> */}
+                    <button className={styles.button}><a href={pdf}> Download CV <span><HiDownload /></span></a></button>
+                    {/* <button><a href={pdf}>Download</a></button> */}
                </div> 
 
                <div className={styles.experi_data}>

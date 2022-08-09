@@ -15,8 +15,8 @@
 .port_image:hover + .cardHov_btn{
    width: 30vw; 
    height: 16vw;
-   background: -webkit-linear-gradient(to right, #ffe000, #799f0c); 
-   background: linear-gradient(to right, #ffe100b9, #789f0cc2);
+   background: -webkit-linear-gradient(to right, #aaaaa6, #799f0c); 
+   background: linear-gradient(to right, #a8a8a5b9, #789f0cc2);
    display: flex;
    align-items: center;
    justify-content: space-between; 

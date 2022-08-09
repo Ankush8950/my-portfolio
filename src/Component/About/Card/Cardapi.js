@@ -11,8 +11,10 @@ export const Experience=[
     },
     {
       id:2,
-      title:"6 Month",
+      title:"8 Month",
       details:"years of experience in React js"  
     },
+  
+    
   
 ] 

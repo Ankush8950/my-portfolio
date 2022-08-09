@@ -2,8 +2,8 @@ import pro from "../image/sp_pro.png"
 import HomeDecore from "../image/homeDecore.png"
 import Nimbus from "../image/nimbus.png"
 import ATG from "../image/ATG.png"
-import single_page from "../image/single_page.png"
 import ecommerce from "../image/e_commerce.png"
+import e_commerce from "../image/ecommerce.png"
 
 export const PortfolioData = [
     {
@@ -20,9 +20,9 @@ export const PortfolioData = [
     },
     {
         id:3,
-        img: single_page,
+        img: e_commerce,
         link: " https://ankush8950.github.io/react-websitelive/",
-        link2: "https://github.com/Ankush8950/react-websitelive"
+        link2: "https://github.com/Ankush8950/mobile-shoping-app"
 
     },
     {
