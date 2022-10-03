@@ -131,7 +131,7 @@
   
     .contaier .details{
         width: 70vw;
-        height: 40vw;
+        height: auto;
         font-size: 50vw;
         padding-left: 4vw;
     }
