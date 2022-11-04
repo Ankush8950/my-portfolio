@@ -24,7 +24,7 @@ const About = () => {
                     <h1 className={styles.data}>Language:<span className={styles.data_pro}>Hindi</span> ,<span className={styles.data_pro}>English</span></h1>
                     <button className={styles.button}><a href={pdf}> Download CV <span><HiDownload /></span></a></button>
                </div> 
-
+{/* card data */}
                <div className={styles.experi_data}>
                  <div className={styles.exper_data}>
                  {
