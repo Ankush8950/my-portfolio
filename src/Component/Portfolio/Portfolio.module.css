@@ -3,7 +3,6 @@
     height: auto;
     background-color: rgb(15, 15, 15);
     padding: 30px;
-    /* margin-bottom: 20px; */
 }
 
 .port_head{
@@ -35,12 +34,10 @@ h1 span {
 .port_elm{
     width: auto;
     height: auto;
-    /* margin: 30px; */
     display: flex;
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
-    /* background-color: violet; */
 }
 
 @media screen and (max-width: 1080px) {
