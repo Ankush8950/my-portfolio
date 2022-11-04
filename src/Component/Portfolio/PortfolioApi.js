@@ -1,6 +1,6 @@
-import pro from "../image/sp_pro.png"
-import HomeDecore from "../image/homeDecore.png"
-import Nimbus from "../image/nimbus.png"
+import rode from "../image/rode.png"
+import shopify from "../image/shopify.png"
+import paytm from "../image/paytm.png"
 import ATG from "../image/ATG.png"
 import ecommerce from "../image/e_commerce.png"
 import e_commerce from "../image/ecommerce.png"
@@ -8,9 +8,9 @@ import e_commerce from "../image/ecommerce.png"
 export const PortfolioData = [
     {
         id:1,
-        img: pro,
-        link: "https://ankush8950.github.io/react-pages/",
-        link2: "https://github.com/Ankush8950/react-pages"
+        img: rode,
+        link: "https://velvety-genie-9718a9.netlify.app/",
+        link2: "https://github.com/Ankush8950/rode-clone"
     },  
     {
         id:2,
@@ -21,7 +21,7 @@ export const PortfolioData = [
     {
         id:3,
         img: e_commerce,
-        link: " https://ankush8950.github.io/react-websitelive/",
+        link: "",
         link2: "https://github.com/Ankush8950/mobile-shoping-app"
 
     },
@@ -33,15 +33,15 @@ export const PortfolioData = [
     },
     {
         id:5,
-        img: HomeDecore,
-        link: "",
-        link2:""
+        img: shopify,
+        link: "https://statuesque-centaur-5ea6ce.netlify.app/",
+        link2: "https://github.com/Ankush8950/shopify-Clone"
     },
     {
         id:6,
-        img: Nimbus,
-        link:"",
-        link2:""
+        img: paytm,
+        link: "https://exquisite-mermaid-d537e6.netlify.app/",
+        link2: "https://github.com/Ankush8950/PaytmClone"
     },
 
     

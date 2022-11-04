@@ -179,6 +179,14 @@
         line-height: 5vw;
         font-size: 5vw;
     }
+    .details button{
+        font-size: 5vw;
+        margin-bottom: 10px;
+    }
+    .details > button > a > span{
+        font-size: 20px;
+    }
+
 
     .data .data_pro{
         font-size: 4vw;
@@ -189,6 +197,7 @@
         align-items: center;
         justify-content: center;
     }
+
     
     .head h1{
         font-size: 7vw;
