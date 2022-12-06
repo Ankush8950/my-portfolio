@@ -50,6 +50,7 @@
     display: flex;
     align-items: center;
     color: yellow;
+    margin-top: 15px;
 }
 
 .heading .headin{

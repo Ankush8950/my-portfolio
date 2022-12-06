@@ -6,6 +6,7 @@ import pro from "../image/personal.jpeg"
 import { FaInstagram } from "react-icons/fa";
 import { AiOutlineGithub } from "react-icons/ai";
 import { FaLinkedin } from "react-icons/fa";
+import {SiHashnode} from "react-icons/si"
 
 
 
@@ -99,6 +100,9 @@ const Navbar = (props) => {
                 </div>
                 <div className={style.Social_icons}>
                 <a href="https://www.linkedin.com/in/ankush-kumar-275129176/"  ><FaLinkedin /></a>
+                </div>
+                <div className={style.Social_icons}>
+                <a href="https://hashnode.com/@Ankush8950 " ><SiHashnode /></a>
                 </div>
             </div>
            </div>
