@@ -21,7 +21,7 @@ export const PortfolioData = [
     {
         id:2,
         img: e_commerce,
-        link: "",
+        link: "https://stalwart-unicorn-000bbc.netlify.app/",
         link2: "https://github.com/Ankush8950/mobile-shoping-app"
 
     },
