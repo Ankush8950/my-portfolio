@@ -39,6 +39,12 @@ h1 span {
     justify-content: center;
     flex-wrap: wrap;
 }
+.seemore{
+    margin-top: 50px;
+    color: white;
+    border-bottom: 2px solid white;
+    cursor: pointer;
+}
 
 @media screen and (max-width: 1080px) {
     .port_head h1{
