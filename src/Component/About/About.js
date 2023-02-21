@@ -3,7 +3,7 @@ import styles from "./About.module.css"
 import { Experience } from "./Card/Cardapi"
 import Card from "./Card/Card"
 import { HiDownload } from "react-icons/hi";
-import pdf from "../pdf/Ankush-Resume.pdf"
+import pdf from "../pdf/Ankush Kumar.pdf"
 
 const About = () => {
   
